@@ -1,0 +1,33 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@andreekeberg/imagedata": "^1.0.2",
+    "@tensorflow-models/handpose": "0.0.7",
+    "@tensorflow/tfjs-backend-wasm": "^3.6.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "image-size": "^1.0.0",
+    "mongodb": "^2.2.36",
+    "socket.io": "^4.0.1",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manmeet-kaur18/Sheldon_Robo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manmeet-kaur18/Sheldon_Robo/issues"
+  },
+  "homepage": "https://github.com/manmeet-kaur18/Sheldon_Robo#readme",
+  "description": ""
+}
